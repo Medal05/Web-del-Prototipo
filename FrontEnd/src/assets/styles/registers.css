@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+.flex {
+    width: 96rem;
+    height: 43rem;
+    margin-top: -2.5rem;
+    margin-left: -8rem;
+
+}
+.errorDiv{
+    background-color: red;
+    color: black;
+    
+}
+.container {
+  position: absolute;
+  border: 3px solid #009DA3;
+  border-radius: 20%;
+  width: 30%;
+  padding: 2rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.aside {
+    position: absolute;
+    margin-left: 50%;
+    height: 43rem;
+    width: 49rem;
+    background-image: url('https://i.pinimg.com/736x/da/54/23/da542336e9bb92257fe2b2aedf30060a.jpg');
+    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
+    background-position: center; 
+    align-items: center;
+}
+.info{
+    height: 65%;
+    width: 60%;
+
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.titulo {
+  color: #009DA3;
+  font-family: 'Segoe UI';
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.input {
+  border: none;
+  margin-top: 1rem;
+  border-bottom: 3px solid #009DA3;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 96%;
+}
+.checkContainer{
+    margin-top: 1rem;
+    display: flex;
+}
+.checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 3px solid #009DA3;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.checkbox:checked {
+    background-color: #009DA3; /* Cambia el color de fondo cuando está marcado */
+}
+.txt {
+  color: #333;
+  font-family: 'Segoe UI';
+}
+
+.btn {
+    border: 3px solid #009DA3;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.text-focus{
+background-color: rgb(215, 253, 253);
+}
+.txt a {
+    color: #009DA3;
+    text-decoration: none;
+  }
+  .separador{
+      display: flex;
+      align-items: center;
+  }
+  .linea1{
+      height: 3px;
+      width: 38%;
+      background-color: #333;
+  }
+  .linea2{
+      height: 3px;
+      width: 37%;
+      background-color: #333;
+  }
+  .continuar{
+      padding: 5px;
+      font-family: 'Segoe UI';
+  }
+.redes{
+    height: 3rem;
+}
+.redesLogos{
+    height: 2rem;
+    width: 2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.logo{
+    height: 2rem;
+    width: 2rem;
+}
